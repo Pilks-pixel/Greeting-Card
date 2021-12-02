@@ -30,24 +30,25 @@
                     <div id="error"></div>
                     <form id="form" action="">
                         <div class="form-group">
-                            <label for="fname">Greeting:</label>
-                            <input type="text" class="form-control" id="fname">
+                            <label class="font-weight-bold" for="greet">Greeting:</label>
+                            <input type="text" class="form-control" id="greet">
                         </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="sel1">Event Type:</label>
+                            <select class="form-control" id="sel1">
+                            <option>Wedding</option>
+                            <option>Birthday</option>
+                            <option>Celebration</option>
+                            </select>
+                        </div>
+                        
                 </div>
-                <div class="col">
+                <div class="col">   
                     <div class="form-group">
-                        <label for="sel1">Event Type:</label>
-                        <select class="form-control" id="sel1">
-                        <option>JavaScript</option>
-                        <option>Python</option>
-                        <option>PHP</option>
-                        </select>
+                        <label class="font-weight-bold" for="comment">Message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
                     </div>
-                    <div class="form-group">
-                        <label for="givefile">Message:</label>
-                        <textarea class="form-control" rows="4" cols="50" name="comment" form="usrform">
-                            Enter text here...</textarea>                
-                    </div>     
+                    
                 </div>
             </div>
             <div class="row">
