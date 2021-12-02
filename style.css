@@ -2,3 +2,23 @@
     visibility: hidden;
     border: 1px solid black;
 }
+
+#createCard h1 {
+    margin-bottom: 30px;
+}
+
+.wannabeBtn {
+    width: 10%;
+    color: black;
+    margin: auto;
+    border: 1px solid #777;
+    display: block;
+    cursor: pointer;
+}
+
+.wannabeBtn:hover {
+    background: red;
+    color: white;
+    transition: 0.9s;
+    border: 1px solid red;
+}
