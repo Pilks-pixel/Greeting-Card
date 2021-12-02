@@ -27,7 +27,6 @@ body {
         background-image: url("party_decorations_cheltenham.png");
     }
 
-#comment {
-    font-weight: bold;
-    color: aliceblue;
-}
+    #greetfont {
+        color: whitesmoke;
+    }
