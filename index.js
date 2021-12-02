@@ -12,3 +12,12 @@ form.addEventListener("submit", (e) => {
         errorElement.innerText = messages.join(", ")
     }
 })
+
+
+let target = document.getElementById("createCard");
+let target2 = document.getElementById("containerCard");
+function showCard() {
+    target2.style.visibility = "visible";
+}
+
+target.addEventListener("click", showCard);

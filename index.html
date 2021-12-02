@@ -14,13 +14,16 @@
 </head>
 <body>
     <header>
-        <div class="jumbotron text-center">
+        <div id ="createCard" class="jumbotron text-center">
             <h1 class="text-center">Greeting Card Creator</h1>
 
         </div>
     </header>
     <main>
-        <div class="container">
+
+
+    
+        <div id= "containerCard" class="container">
             <div class="row">
                 <div class="col">
                     <div id="error"></div>
@@ -29,16 +32,8 @@
                             <label for="fname">Greeting:</label>
                             <input type="text" class="form-control" id="fname">
                         </div>
-                        <div class="form-group">
-                            <label for="lname">Last Name:</label>
-                            <input type="text" class="form-control" id="lname">
-                        </div>
                 </div>
                 <div class="col">
-                    <div class="form-group">
-                        <label for="givefile">Upload Files:</label>
-                        <input type="file" class="form-control" id="givefile" multiple>
-                    </div>
                     <div class="form-group">
                         <label for="sel1">Event Type:</label>
                         <select class="form-control" id="sel1">
@@ -47,6 +42,11 @@
                         <option>PHP</option>
                         </select>
                     </div>
+                    <div class="form-group">
+                        <label for="givefile">Message:</label>
+                        <textarea class="form-control" rows="4" cols="50" name="comment" form="usrform">
+                            Enter text here...</textarea>                
+                    </div>     
                 </div>
             </div>
             <div class="row">
@@ -56,7 +56,7 @@
             </div>  
 
 
-                </form>
+            </form>
         </div>
 
     </main>
