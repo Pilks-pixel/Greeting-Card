@@ -1,11 +1,11 @@
-const fname = document.getElementById("fname")
+const greet = document.getElementById("greet")
 const form = document.getElementById("form")
 const errorElement = document.getElementById("error")
 
 form.addEventListener("submit", (e) => {
     let messages = []
-    if (fname.value === "" || fname.value == null) {
-        messages.push("Name is required")
+    if (greet.value === "" || greet.value == null) {
+        messages.push("Greeting is required")
     }
     if (messages.length > 0) {
         e.preventDefault()
